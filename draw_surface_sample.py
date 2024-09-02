@@ -7,10 +7,10 @@ from tqdm import tqdm
 import copy
 
 # Load the URDF model
-urdf_filename = "./urdf/up_body.urdf"
+urdf_filename = "./urdf/wow_body_little.urdf"
+urdf_filename = "./urdf/wow_body_large.urdf"
 urdf_filename = "./urdf/panda.urdf"
 urdf_filename = "./urdf/ARM002.urdf"
-urdf_filename = "./urdf/wow_body.urdf"
 
 num_samples = 5000
 

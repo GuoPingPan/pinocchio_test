@@ -7,7 +7,7 @@ import numpy as np
 pinocchio_model_dir = join(dirname(dirname(str(abspath(__file__)))), "models")
 
 # You should change here to set up your own URDF file or just pass it as an argument of this example.
-urdf_filename = "/home/a4090/ikpy/resources/wow/up_body.urdf"
+urdf_filename = "./wow/wow_body_little.urdf"
 
 # Load the urdf model
 model = pinocchio.buildModelFromUrdf(urdf_filename)
